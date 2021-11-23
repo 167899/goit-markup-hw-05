@@ -52,7 +52,7 @@
       <section class="main-screen">
         <div class="conteiner">
           <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="to-order">Заказать услугу</button>
+          <button type="button" class="to-order" data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <!--Особенности-->
@@ -443,5 +443,11 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-button" data-modal-close></button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
